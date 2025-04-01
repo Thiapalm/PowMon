@@ -2585,6 +2585,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim yes)
 			(in_bom no)
@@ -3461,7 +3568,7 @@
 	)
 	(text_box "DESIGN NOTE:\nVBUS Ref "
 		(exclude_from_sim no)
-		(at 110.49 35.306 0)
+		(at 119.38 45.466 0)
 		(size 74.93 30.48)
 		(margins 2 2 2 2)
 		(stroke
@@ -3541,7 +3648,7 @@
 		(uuid "27b19d15-c702-419f-a0ba-e86d5c0a5cbc")
 	)
 	(junction
-		(at 149.86 52.07)
+		(at 158.75 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54133022-d1f4-41fe-acf2-983374f0dadc")
@@ -4006,7 +4113,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 52.07) (xy 154.94 52.07)
+			(xy 158.75 62.23) (xy 163.83 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4046,7 +4153,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 52.07) (xy 172.72 52.07)
+			(xy 171.45 62.23) (xy 181.61 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4137,7 +4244,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 52.07) (xy 149.86 52.07)
+			(xy 152.4 62.23) (xy 158.75 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4187,7 +4294,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 52.07) (xy 135.89 52.07)
+			(xy 133.35 62.23) (xy 144.78 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4854,7 +4961,7 @@
 		(uuid "702b8f48-cbd2-44c4-8339-b48bd36f154c")
 	)
 	(label "VIN+"
-		(at 124.46 52.07 0)
+		(at 133.35 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4934,7 +5041,7 @@
 		(uuid "d654feb9-c8a3-4dc4-ae11-614a5e7a0606")
 	)
 	(label "VIN-"
-		(at 172.72 52.07 180)
+		(at 181.61 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5316,6 +5423,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 120.65 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06e395eb-2653-41c8-9ee2-0d19111e0029")
+		(property "Reference" "#PWR026"
+			(at 120.65 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 120.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 120.65 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "887dc23f-4d58-460b-8a91-292d22b16e9e")
+		)
+		(instances
+			(project "KDT_Hierarchical"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0_capacitors:0805B104K500CT")
 		(at 175.26 135.89 90)
 		(unit 1)
@@ -5673,7 +5846,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 149.86 52.07 0)
+		(at 158.75 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5682,7 +5855,7 @@
 		(fields_autoplaced yes)
 		(uuid "19d77bf2-0af3-4405-8c86-992b9e717550")
 		(property "Reference" "#PWR022"
-			(at 149.86 55.88 0)
+			(at 158.75 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5691,7 +5864,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 149.86 46.99 0)
+			(at 158.75 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5699,7 +5872,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 52.07 0)
+			(at 158.75 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5708,7 +5881,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 52.07 0)
+			(at 158.75 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,7 +5890,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 149.86 52.07 0)
+			(at 158.75 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5739,7 +5912,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 250.19 33.02 0)
+		(at 251.46 36.83 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5748,7 +5921,7 @@
 		(fields_autoplaced yes)
 		(uuid "2222e52e-ea44-447b-8cc5-ecd5d20c8720")
 		(property "Reference" "H4"
-			(at 252.73 31.7499 0)
+			(at 254 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5757,7 +5930,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 252.73 34.2899 0)
+			(at 254 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,7 +5939,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm"
-			(at 250.19 33.02 0)
+			(at 251.46 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5775,7 +5948,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 33.02 0)
+			(at 251.46 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +5957,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 250.19 33.02 0)
+			(at 251.46 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5796,6 +5969,72 @@
 			(project "KDT_Hierarchical"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "241570de-731b-4e06-bd7b-d19423f76edd")
+		(property "Reference" "#PWR025"
+			(at 139.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1aeb9d5b-4555-4f69-b941-da1678e81acb")
+		)
+		(instances
+			(project "KDT_Hierarchical"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6196,6 +6435,72 @@
 			(project "KDT_Hierarchical"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 130.81 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "379f5872-1671-4002-beff-98f4e5155d30")
+		(property "Reference" "TP2"
+			(at 132.588 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.128 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_testpoints:TestPoint_PTH_1mm_2mm"
+			(at 125.73 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 130.81 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "219ca2c4-ae20-40b3-b127-af9a5ec2b141")
+		)
+		(instances
+			(project "KDT_Hierarchical"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6734,7 +7039,7 @@
 	)
 	(symbol
 		(lib_id "0_resistors:CRCW06030000Z0EI")
-		(at 139.7 52.07 90)
+		(at 148.59 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6743,7 +7048,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d103413-1181-46c8-8dd4-ee59fbc9d8b1")
 		(property "Reference" "R9"
-			(at 139.7 45.72 90)
+			(at 148.59 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,7 +7056,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 139.7 48.26 90)
+			(at 148.59 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6759,7 +7064,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 139.7 52.07 0)
+			(at 148.59 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6768,7 +7073,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 139.7 52.07 0)
+			(at 148.59 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6777,7 +7082,7 @@
 			)
 		)
 		(property "Description" "RESISTOR, 10K, 75V, 1/10W, 0603"
-			(at 139.7 52.07 0)
+			(at 148.59 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,7 +7091,7 @@
 			)
 		)
 		(property "CompanyPN" ""
-			(at 139.7 52.07 0)
+			(at 148.59 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6795,7 +7100,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 139.7 52.07 0)
+			(at 148.59 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6804,7 +7109,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CRCW06030000Z0EI"
-			(at 139.7 52.07 0)
+			(at 148.59 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6813,7 +7118,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 139.7 52.07 0)
+			(at 148.59 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6822,7 +7127,7 @@
 			)
 		)
 		(property "Sim.Params" "r=0"
-			(at 139.7 52.07 0)
+			(at 148.59 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6847,7 +7152,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 227.33 22.86 0)
+		(at 251.46 21.59 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -6856,7 +7161,7 @@
 		(fields_autoplaced yes)
 		(uuid "50ede99a-dbdb-45a1-b114-6251b063c6b4")
 		(property "Reference" "H1"
-			(at 229.87 21.5899 0)
+			(at 254 20.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,7 +7170,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 229.87 24.1299 0)
+			(at 254 22.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6874,7 +7179,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm"
-			(at 227.33 22.86 0)
+			(at 251.46 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6883,7 +7188,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 22.86 0)
+			(at 251.46 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6892,7 +7197,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 227.33 22.86 0)
+			(at 251.46 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7082,6 +7387,72 @@
 			(project "KDT_Hierarchical"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 120.65 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bd0b0b7-dd46-4ecf-a465-0707627780ec")
+		(property "Reference" "TP1"
+			(at 118.872 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 116.84 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "0_testpoints:TestPoint_PTH_1mm_2mm"
+			(at 115.57 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 120.65 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17302de7-aac9-482f-8a71-d598ccef65f3")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -7305,6 +7676,72 @@
 			(project "KDT_Hierarchical"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e5e6893-57b5-4735-bd13-07c2a4927f43")
+		(property "Reference" "TP3"
+			(at 137.922 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.382 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_testpoints:TestPoint_PTH_1mm_2mm"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42d086e2-4fdb-4432-a35d-b4c972e3b37a")
+		)
+		(instances
+			(project "KDT_Hierarchical"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -8005,6 +8442,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 130.81 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9041c130-a0b0-49b8-9397-ad5a9a85345a")
+		(property "Reference" "#PWR027"
+			(at 130.81 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 130.81 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 130.81 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73f7975c-7986-4b95-a905-30656b9ddbe4")
+		)
+		(instances
+			(project "KDT_Hierarchical"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0_capacitors:0805B104K500CT")
 		(at 50.8 40.64 90)
 		(unit 1)
@@ -8563,7 +9066,7 @@
 	)
 	(symbol
 		(lib_id "0_resistors:CRCW06030000Z0EI")
-		(at 158.75 52.07 90)
+		(at 167.64 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8571,7 +9074,7 @@
 		(dnp no)
 		(uuid "a995fb5f-b33c-453b-a0c2-34bf54f20415")
 		(property "Reference" "R8"
-			(at 159.004 49.784 90)
+			(at 167.894 59.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8579,7 +9082,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 159.004 52.07 90)
+			(at 167.894 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8587,7 +9090,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 158.75 52.07 0)
+			(at 167.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8596,7 +9099,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 158.75 52.07 0)
+			(at 167.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8605,7 +9108,7 @@
 			)
 		)
 		(property "Description" "RESISTOR, 10K, 75V, 1/10W, 0603"
-			(at 158.75 52.07 0)
+			(at 167.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8614,7 +9117,7 @@
 			)
 		)
 		(property "CompanyPN" ""
-			(at 158.75 52.07 0)
+			(at 167.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8623,7 +9126,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 158.75 52.07 0)
+			(at 167.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8632,7 +9135,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CRCW06030000Z0EI"
-			(at 158.75 52.07 0)
+			(at 167.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8641,7 +9144,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 158.75 52.07 0)
+			(at 167.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,7 +9153,7 @@
 			)
 		)
 		(property "Sim.Params" "r=0"
-			(at 158.75 52.07 0)
+			(at 167.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9279,7 +9782,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 270.51 19.05 0)
+		(at 270.51 27.94 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -9288,7 +9791,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3043bb0-f948-4e42-9c44-9420bf08f10f")
 		(property "Reference" "FID1"
-			(at 273.05 17.7799 0)
+			(at 273.05 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9297,7 +9800,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 273.05 20.3199 0)
+			(at 273.05 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9306,7 +9809,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 270.51 19.05 0)
+			(at 270.51 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9315,7 +9818,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 270.51 19.05 0)
+			(at 270.51 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9324,7 +9827,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 270.51 19.05 0)
+			(at 270.51 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9457,7 +9960,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 248.92 22.86 0)
+		(at 251.46 31.75 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -9466,7 +9969,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb9a9aed-4dc4-4f5e-a2e8-a62c55de003d")
 		(property "Reference" "H3"
-			(at 251.46 21.5899 0)
+			(at 254 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9475,7 +9978,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 251.46 24.1299 0)
+			(at 254 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9484,7 +9987,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm"
-			(at 248.92 22.86 0)
+			(at 251.46 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9493,7 +9996,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 22.86 0)
+			(at 251.46 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9502,7 +10005,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 248.92 22.86 0)
+			(at 251.46 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9701,7 +10204,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 270.51 27.94 0)
+		(at 270.51 33.02 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -9710,7 +10213,7 @@
 		(fields_autoplaced yes)
 		(uuid "d80d2665-edd5-459a-acba-13d78c926c1b")
 		(property "Reference" "FID2"
-			(at 273.05 26.6699 0)
+			(at 273.05 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9719,7 +10222,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 273.05 29.2099 0)
+			(at 273.05 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9728,7 +10231,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 270.51 27.94 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9737,7 +10240,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 270.51 27.94 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9746,7 +10249,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 270.51 27.94 0)
+			(at 270.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10098,7 +10601,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 227.33 33.02 0)
+		(at 251.46 26.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -10107,7 +10610,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9c5d707-842e-4381-9de0-3c5b2cc12dd3")
 		(property "Reference" "H2"
-			(at 229.87 31.7499 0)
+			(at 254 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10116,7 +10619,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 229.87 34.2899 0)
+			(at 254 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10125,7 +10628,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm"
-			(at 227.33 33.02 0)
+			(at 251.46 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10134,7 +10637,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 33.02 0)
+			(at 251.46 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10143,7 +10646,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 227.33 33.02 0)
+			(at 251.46 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)

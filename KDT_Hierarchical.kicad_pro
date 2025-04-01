@@ -122,6 +122,10 @@
           ""
         ],
         [
+          "silk_overlap|147218400|101037400|50342493-912e-4427-af8a-9e672aa7ea8b|ce689569-acfd-49c5-9597-dd6250210d3b",
+          ""
+        ],
+        [
           "silk_overlap|147218400|105070600|897260b2-49d9-4ad5-8486-bf5168cf88c0|ce689569-acfd-49c5-9597-dd6250210d3b",
           ""
         ],
@@ -139,10 +143,6 @@
         ],
         [
           "silk_overlap|147218400|115350600|b5528675-ef96-4fba-8769-d0eca979ac6c|ce689569-acfd-49c5-9597-dd6250210d3b",
-          ""
-        ],
-        [
-          "silk_overlap|147218400|91037400|50342493-912e-4427-af8a-9e672aa7ea8b|ce689569-acfd-49c5-9597-dd6250210d3b",
           ""
         ]
       ],
@@ -599,7 +599,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "amulet_controller.net",
-      "plot": "",
+      "plot": "Manufacturing/Fabrication/Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "STEP/amulet_controller.step",
@@ -610,7 +610,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "Manufacturing\\Assembly\\KDT_BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -671,6 +671,36 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Params",
+          "name": "Sim.Params",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CompanyPN",
+          "name": "CompanyPN",
           "show": false
         }
       ],
@@ -745,12 +775,13 @@
   ],
   "text_variables": {
     "BOARD_NAME": "PowMon",
-    "COMPANY": "Company Name",
-    "DESIGNER": "Designer Name",
-    "DOC_TYPE": "Fabrication",
+    "COMPANY": "thiago.palmieri@adastra.aleeas.com",
+    "DESIGNER": "Thiago Palmieri",
+    "DOC_TYPE": "Assembly",
     "PROJECT_NAME": "PowMon",
-    "RELEASE_DATE": "Release Date",
-    "REVIEWER": "Reviewer Name",
+    "RELEASE_DATE": "2025-04-01",
+    "RESULT": "RELEASED",
+    "REVIEWER": "Thiago Palmieri",
     "REVISION": "V1",
     "VARIANT": "No Variant"
   }

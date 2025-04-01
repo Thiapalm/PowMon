@@ -5,7 +5,7 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ff555575_575555f5",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffdff5ff",
     "zone_display_mode": 0
   },
   "git": {
@@ -118,6 +118,18 @@
       {
         "name": "KDT_Hierarchical.kicad_sch",
         "open": true,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 1936,
+          "size_y": 1048
+        }
+      },
+      {
+        "name": "KDT_Hierarchical.kicad_pcb",
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
