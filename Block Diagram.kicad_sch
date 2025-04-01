@@ -1843,16 +1843,6 @@
 		)
 		(uuid "a97da915-ffc2-43ac-80c4-e7eb9cf7c5a5")
 	)
-	(wire
-		(pts
-			(xy 402.59 217.17) (xy 402.59 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4f62156-15f4-48ac-9d43-bc384819fb6a")
-	)
 	(polyline
 		(pts
 			(xy 138.938 113.03) (xy 138.938 118.11)
