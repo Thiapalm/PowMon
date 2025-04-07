@@ -74,7 +74,7 @@
           ""
         ],
         [
-          "silk_edge_clearance|147476600|101037400|13e9ede5-15c7-4fd7-a5e9-2cc7656131e3|50342493-912e-4427-af8a-9e672aa7ea8b",
+          "silk_edge_clearance|147487200|102000000|13e9ede5-15c7-4fd7-a5e9-2cc7656131e3|50342493-912e-4427-af8a-9e672aa7ea8b",
           ""
         ],
         [
@@ -118,11 +118,7 @@
           ""
         ],
         [
-          "silk_overlap|113817400|91012000|0398c666-7e75-4e5f-8366-63eaad76de3c|9c2c03d9-2515-4b9d-bc3f-f56071166038",
-          ""
-        ],
-        [
-          "silk_overlap|147218400|101037400|50342493-912e-4427-af8a-9e672aa7ea8b|ce689569-acfd-49c5-9597-dd6250210d3b",
+          "silk_overlap|113817400|92000000|0398c666-7e75-4e5f-8366-63eaad76de3c|9c2c03d9-2515-4b9d-bc3f-f56071166038",
           ""
         ],
         [
@@ -143,6 +139,10 @@
         ],
         [
           "silk_overlap|147218400|115350600|b5528675-ef96-4fba-8769-d0eca979ac6c|ce689569-acfd-49c5-9597-dd6250210d3b",
+          ""
+        ],
+        [
+          "silk_overlap|147218400|92000000|50342493-912e-4427-af8a-9e672aa7ea8b|ce689569-acfd-49c5-9597-dd6250210d3b",
           ""
         ]
       ],
@@ -602,7 +602,7 @@
       "plot": "Manufacturing/Fabrication/Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "STEP/amulet_controller.step",
+      "step": "STEP/PowMon.step",
       "svg": "",
       "vrml": ""
     },
@@ -777,7 +777,7 @@
     "BOARD_NAME": "PowMon",
     "COMPANY": "thiago.palmieri@adastra.aleeas.com",
     "DESIGNER": "Thiago Palmieri",
-    "DOC_TYPE": "Assembly",
+    "DOC_TYPE": "Fabrication",
     "PROJECT_NAME": "PowMon",
     "RELEASE_DATE": "2025-04-01",
     "RESULT": "RELEASED",
