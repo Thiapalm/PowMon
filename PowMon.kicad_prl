@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 7,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -60,7 +60,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "KDT_Hierarchical.kicad_prl",
+    "filename": "PowMon.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -116,7 +116,19 @@
   "project": {
     "files": [
       {
-        "name": "KDT_Hierarchical.kicad_pcb",
+        "name": "PowMon.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 1936,
+          "size_y": 1048
+        }
+      },
+      {
+        "name": "PowMon.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,
